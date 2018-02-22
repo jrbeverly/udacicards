@@ -45,20 +45,21 @@ const navigationOptions = {
   },
 };
 
-const IndividualDeckNavigator = StackNavigator({
-  DeckView: {
-    screen: DeckView,
-    navigationOptions,
-  },
-  NewQuestion: {
-    screen: NewQuestion,
-    navigationOptions,
-  },
-  QuizView: {
-    screen: QuizView,
-    navigationOptions,
-  },
-}, {
+const IndividualDeckNavigator = StackNavigator(
+  {
+    DeckView: {
+      screen: DeckView,
+      navigationOptions,
+    },
+    NewQuestion: {
+      screen: NewQuestion,
+      navigationOptions,
+    },
+    QuizView: {
+      screen: QuizView,
+      navigationOptions,
+    },
+  }, {
     headerMode: 'none',
   });
 
