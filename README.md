@@ -1,3 +1,29 @@
+# UdaciCards
+
+## Summary
+
+For the UdaciCards project, you will build a mobile application (Android or iOS - or both) that allows users to study collections of flashcards. The app will allow users to create different categories of flashcards called "decks", add flashcards to those decks, then take quizzes on those decks.
+
+## Installation
+
+You can install the project dependencies using:
+
+```bash
+cd src/udacicards/
+yarn
+```
+
+The you can start the application:
+
+```bash
+yarn start
+```
+
+To troubleshoot the issues of the application, you can review [React Native - Getting Started](https://facebook.github.io/react-native/docs/getting-started.html).
+
+## Supported OS
+
+Application was tested using Android Emulators.
 
 ## Acknowledgements
 
