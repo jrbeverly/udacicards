@@ -1,0 +1,18 @@
+slug: udacicards
+description: Mobile Flashcards.
+project: udacity
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "react",
+    "react-native",
+    "flashcards",
+    "mobile",
+    "udacity-react-nanodegree"
+  ]
